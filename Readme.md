@@ -35,3 +35,13 @@ Here are the list of tasks of the case study
 ### SurgeonAvailabilitySlot
 
 - Through this model surgeon specifies time range of the appointment in a hospital or clinic
+
+
+# How to run application
+> pip install -r requirements_dev.txt
+
+> python manage.py runserver
+
+# How to run pytest
+
+> pytest
