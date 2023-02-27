@@ -1,0 +1,2 @@
+[bandit]
+exclude: tests,env,node_modules,docs,conftest.py,test_utils/views.py,.tox,migrations

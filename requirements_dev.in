@@ -1,0 +1,19 @@
+-r requirements.in
+
+# Development
+django-debug-toolbar
+pre-commit
+
+black
+flake8
+isort
+pydocstyle
+pytest
+pytest-django
+bandit
+pyupgrade
+freezegun
+model_bakery
+
+# Release
+pip-tools

@@ -1,0 +1,37 @@
+[flake8]
+max-line-length = 88
+statistics = true
+show-source = true
+exclude = */migrations/*,docs/*,node_modules/*,env
+ignore =
+	# following https://github.com/psf/black/issues/429
+	# These rules do not need to be checked as black fixes them automatically
+	E101,
+	E111,
+	E114,
+	E115,
+	E116,
+	E117,
+	E121,
+	E122,
+	E123,
+	E124,
+	E125,
+	E126,
+	E127,
+	E128,
+	E129,
+	E131,
+	E133,
+	E2,
+	E3,
+	E5,
+	E701,
+	E702,
+	E703,
+	E704,
+	W1,
+	W2,
+	W3,
+	W503,
+	W504
