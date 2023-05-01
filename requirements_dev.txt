@@ -16,7 +16,6 @@ django==4.1.7
 django-debug-toolbar==3.8.1
 django-extensions==3.2.1
 djangorestframework==3.14.0
-exceptiongroup==1.1.0
 filelock==3.9.0
 flake8==6.0.0
 freezegun==1.2.2
@@ -32,7 +31,7 @@ nodeenv==1.7.0
 packaging==23.0
 pathspec==0.11.0
 pbr==5.11.1
-pip-tools==6.12.2
+pip-tools==6.13.0
 platformdirs==3.0.0
 pluggy==1.0.0
 pre-commit==3.1.0
@@ -52,7 +51,6 @@ snowballstemmer==2.2.0
 sqlparse==0.4.3
 stevedore==5.0.0
 tokenize-rt==5.0.0
-tomli==2.0.1
 virtualenv==20.19.0
 wheel==0.38.4
 
