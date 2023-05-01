@@ -5,7 +5,6 @@
 #    pip-compile --no-annotate requirements_dev.in
 #
 asgiref==3.6.0
-attrs==22.2.0
 bandit==1.7.4
 black==23.1.0
 build==0.10.0
@@ -16,7 +15,6 @@ django==4.1.7
 django-debug-toolbar==3.8.1
 django-extensions==3.2.1
 djangorestframework==3.14.0
-exceptiongroup==1.1.0
 filelock==3.9.0
 flake8==6.0.0
 freezegun==1.2.2
@@ -40,7 +38,7 @@ pycodestyle==2.10.0
 pydocstyle==6.3.0
 pyflakes==3.0.1
 pyproject-hooks==1.0.0
-pytest==7.2.1
+pytest==7.3.1
 pytest-django==4.5.2
 python-dateutil==2.8.2
 pytz==2022.7.1
@@ -52,7 +50,6 @@ snowballstemmer==2.2.0
 sqlparse==0.4.3
 stevedore==5.0.0
 tokenize-rt==5.0.0
-tomli==2.0.1
 virtualenv==20.19.0
 wheel==0.38.4
 
