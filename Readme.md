@@ -3,7 +3,7 @@
 This app is a booking system designed to make it easy for patients and surgeons to schedule appointments.
 The system includes Surgeon, Patient, and Health Provider entities, and it works by allowing surgeons to specify a date and time range for their visits with patients.
 Once this information is entered, the app automatically creates a list of available appointments for patients to choose from.
-Patients can then select the appointment that best fits their schedule and request it through the app.....
+Patients can then select the appointment that best fits their schedule and request it through the app.
 
 
 IMHO there is room for improvement. For example, I was going to incorporate additional features such as email appointment confirmations and a more user-friendly interface for both doctors and patients.
