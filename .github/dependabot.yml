@@ -1,7 +1,13 @@
 version: 2
+
+on:
+  pull_request_target:
+    branches:
+      - 'development/**'
+
+
 updates:
   - package-ecosystem: "pip"
-    directory: "/"
     schedule:
       interval: "monthly"
     rebase-strategy: "auto"
