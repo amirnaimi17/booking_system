@@ -20,11 +20,3 @@ jobs:
           pre-commit run --all --show-diff-on-failure --color=always
       - name: Run tests
         run: pytest --cov-config pyproject.toml --cov-report=xml --cov=.
-
-      - name: upload coverage to codecov
-        if: ${{ !(github.event_name == 'pull_request' && github.event.pull_request.user.login == 'dependabot[bot]') }}
-        uses: codecov/codecov-action@v3
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          fail_ci_if_error: true
-          files: coverage.xml
