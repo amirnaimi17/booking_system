@@ -9,6 +9,7 @@ flake8
 isort
 pydocstyle
 pytest
+pytest-cov
 pytest-django
 bandit
 pyupgrade
