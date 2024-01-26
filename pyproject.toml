@@ -29,7 +29,7 @@ source = ["."]
 omit = ["conftest.py", "manage.py",
     "*/tests/*", "*/test_*.py",
   "*/baker_recipes.py",
-  "*/migrations/",
+  "*/migrations/*",
   "*/urls.py",
   "*/conftest.py",]
 
