@@ -76,5 +76,5 @@ class SurgeonSignupView(CreateAPIView):
 
 
 def some_test_to_catch_codecov(a):
-    x = 2 + a
+    x = 3 + a
     return x
