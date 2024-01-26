@@ -79,9 +79,11 @@ def some_test_to_catch_codecov1(a):
     x = 4 + a
     return x
 
+
 def some_test_to_catch_codecov2(a):
     x = 5 + a
     return x
+
 
 def some_test_to_catch_codecov3(a):
     x = 6 + a
