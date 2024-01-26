@@ -11,12 +11,12 @@ coverage:
     project:
       default:
         target: auto
-        threshold: 95%
+        threshold: 0%
         base: auto
         only_pulls: true
     patch:
       default:
         target: auto
-        threshold: 95%
+        threshold: 0%
         base: auto
         only_pulls: true
