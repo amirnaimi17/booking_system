@@ -20,3 +20,6 @@ coverage:
         threshold: 5%
         base: auto
         only_pulls: true
+
+github_checks:
+  annotations: true
