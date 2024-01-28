@@ -93,4 +93,3 @@ def some_test_to_catch_codecov3(a):
 def some_test_to_catch_codecov4(a):
     x = 7 + a
     return x
-
