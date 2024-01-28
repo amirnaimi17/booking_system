@@ -21,4 +21,3 @@ line_length = 88
 [tool.pydocstyle]
 add_ignore = "D1"
 match-dir = '(?!test|docs|venv|\.).*'
-
