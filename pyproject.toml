@@ -22,17 +22,3 @@ line_length = 88
 add_ignore = "D1"
 match-dir = '(?!test|docs|venv|\.).*'
 
-
-[tool.coverage]
-[tool.coverage.run]
-source = ["."]
-omit = ["conftest.py", "manage.py",
-    "*/tests/*", "*/test_*.py",
-  "*/baker_recipes.py",
-  "*/migrations/*",
-  "*/urls.py",
-  "*/conftest.py",]
-
-[tool.coverage.report]
-ignore_errors = true
-show_missing = true
