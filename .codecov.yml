@@ -11,12 +11,15 @@ coverage:
     project:
       default:
         target: auto
-        threshold: 0%
+        threshold: 5%
         base: auto
         only_pulls: true
     patch:
       default:
         target: auto
-        threshold: 0%
+        threshold: 5%
         base: auto
         only_pulls: true
+
+github_checks:
+  annotations: true

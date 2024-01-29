@@ -75,6 +75,21 @@ class SurgeonSignupView(CreateAPIView):
         return Response(response_data, status=status.HTTP_201_CREATED)
 
 
-def some_test_to_catch_codecov(a):
-    x = 3 + a
+def some_test_to_catch_codecov1(a):
+    x = 4 + a
+    return x
+
+
+def some_test_to_catch_codecov2(a):
+    x = 5 + a
+    return x
+
+
+def some_test_to_catch_codecov3(a):
+    x = 6 + a
+    return x
+
+
+def some_test_to_catch_codecov4(a):
+    x = 7 + a
     return x
