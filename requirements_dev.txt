@@ -4,7 +4,6 @@
 #
 #    pip-compile --no-annotate requirements_dev.in
 #
-
 asgiref==3.6.0
 attrs==22.2.0
 bandit==1.7.4
@@ -37,7 +36,7 @@ pbr==5.11.1
 pip-tools==6.12.2
 platformdirs==3.0.0
 pluggy==1.0.0
-pre-commit==3.1.0
+pre-commit==3.6.0
 pycodestyle==2.10.0
 pydocstyle==6.3.0
 pyflakes==3.0.1
